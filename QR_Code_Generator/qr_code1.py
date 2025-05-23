@@ -7,5 +7,5 @@ qr=qrcode.QRCode(version=1,
                  box_size=10,border=4)
 qr.add_data("youtube.com/watch?v=fyre99dZQ8Y")
 qr.make(fit=True)
-img=qr.make_image(fill_color="pink",back_color="lavender")
+img=qr.make_image(fill_color="black",back_color="lavender")
 img.save("Andrew_video.png")
