@@ -6,8 +6,9 @@ if __name__== "__main__":
     while True:
         notification.notify(
             title="Hello",
-            message="This is a test notification",
-            app_icon="F:/Praveen_Repository/python_advanced_projects/Desktop_notifier/try.ico",
+            message="Namagiri il malai tea udan maja",
+            app_icon="F:\\Praveen_Repository\\python_advanced_projects\\Desktop_notifier\\try.ico",
             timeout=5
         )
-    time.sleep(10)
+        print("Notification sent!")
+        time.sleep(10)
